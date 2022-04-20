@@ -1,0 +1,17 @@
+<!--
+History
+<Date>            <Authors Name>     <Brief Description of Change>
+19 APR 2022       BMONDAL			 Providing user a better User Experience. Added Logic to able to save the widgets from Custom Lightning Tab
+-->
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="WidgetUpdateController">
+	
+    <aura:attribute name="widget" type="Widget__c" default="{'sobjectType': 'Widget__c',
+                     'Name': ''}"/>
+    
+    <lightning:card variant="Narrow" title="Create New Widget">
+        <p class="slds-p-horizontal_small">
+            <lightning:input name="Value" value= "{!v.widget.Value__c}" required="true" label="Value"/><br/>
+            <center><lightning:button variant="brand" label="Save" title="Save" onclick="{!c.handleClick }" /></center>
+        </p>
+    </lightning:card>
+</aura:component>

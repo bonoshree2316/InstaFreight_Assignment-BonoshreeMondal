@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error</shortDescription>
+        <value>Error!!</value>
+    </labels>
+    <labels>
+        <fullName>RecordNotSaved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecordNotSaved</shortDescription>
+        <value>There is some problem with the data. Please review.</value>
+    </labels>
+    <labels>
+        <fullName>RecordSaved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecordSaved</shortDescription>
+        <value>Widget Record Saved Successfully</value>
+    </labels>
+    <labels>
+        <fullName>Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+</CustomLabels>

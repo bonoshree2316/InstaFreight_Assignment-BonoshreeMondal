@@ -1,0 +1,8 @@
+Dear {!Widget__c.Owner.Name}, 
+
+Please review the below record and additional details:
+{!Widget__c.Id}- {!Widget__c.Name}
+
+Value: {!Widget__c.Value__c}
+
+Thank you.
